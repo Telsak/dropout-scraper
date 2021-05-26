@@ -22,34 +22,34 @@ shows/season/episodes in the following format:
 ```python
 { "show": {
   "1": {
-    "name": "Mice & Murder", 
-    "url": "/mice-murder", 
+    "name": "Show #1", 
+    "url": "/show-name-and-url", 
     "season": {
       "1": {
         "name": "Season 1", 
-        "url": "https://www.dropout.tv/mice-murder/season:1", 
+        "url": "https://www.show.url/show/season1", 
         "episode": {
           "1": {
-            "url": "https://www.dropout.tv/mice-murder/season:1/videos/it-was-a-dark-and-stormy-night", 
-            "name": "It Was a Dark and Stormy Night"
+            "url": "https://www.show.url/season1/episode1", 
+            "name": "Episode 1 name"
           }, 
           "2": {
-            "url": "https://www.dropout.tv/mice-murder/season:1/videos/a-scandal-in-britannia", 
-            "name": "A Scandal in Britannia"
+            "url": "https://www.show.url/season1/episode2", 
+            "name": "Episode 2 name"
           }
         }
       },
       "2": {
         "name": "Season 2", 
-        "url": "https://www.dropout.tv/mice-murder/season:2", 
+        "url": "https://www.dropout.tv/show/season2", 
         "episode": {
           "1": {
-            "url": "https://www.dropout.tv/mice-murder/season:2/another-season-url/episode1", 
-            "name": "Title here"
+            "url": "https://www.show.url/season2/episode1", 
+            "name": "Episode 1 name"
           }, 
           "2": {
-            "url": "https://www.dropout.tv/mice-murder/season:1/videos/a-scandal-in-britannia", 
-            "name": "A Scandal in Britannia"
+            "url": "https://www.show.url/season2/episode2", 
+            "name": "Episode 2 name"
           }
         }
       }
