@@ -208,8 +208,7 @@ credcheck = init_files()
 if credcheck[0] == False:
     cust_header, payload = setup_user(auth_token)
 else:
-    cust_header, payload = setup_user(auth_token, credcheck[0], credcheck[1])
-
+    cust_header, payload = setup_user(auth_token, credcheck[0][0], credcheck[0][1])
 
 # we send a login post in order to get authenticated cookie
 postrequest = post_payload(url, cust_header, payload, session)
