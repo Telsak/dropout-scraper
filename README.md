@@ -20,41 +20,42 @@ Upon successful scraping dropout.json will be created which will contain all
 shows/season/episodes in the following format:
 
 ```python
-{ "show": {
-  "1": {
-    "name": "Show #1", 
-    "url": "/show-name-and-url", 
-    "season": {
-      "1": {
-        "name": "Season 1", 
-        "url": "https://www.show.url/show/season1", 
-        "episode": {
-          "1": {
-            "url": "https://www.show.url/season1/episode1", 
-            "name": "Episode 1 name"
-          }, 
-          "2": {
-            "url": "https://www.show.url/season1/episode2", 
-            "name": "Episode 2 name"
-          }
-        }
-      },
-      "2": {
-        "name": "Season 2", 
-        "url": "https://www.dropout.tv/show/season2", 
-        "episode": {
-          "1": {
-            "url": "https://www.show.url/season2/episode1", 
-            "name": "Episode 1 name"
-          }, 
-          "2": {
-            "url": "https://www.show.url/season2/episode2", 
-            "name": "Episode 2 name"
-          }
-        }
+{
+   "show":{
+      "1":{
+         "name":"Show #1",
+         "url":"/show-name-and-url",
+         "season":{
+            "1":{
+               "name":"Season 1",
+               "url":"https://www.show.url/show/season1",
+               "episode":{
+                  "1":{
+                     "url":"https://www.show.url/season1/episode1",
+                     "name":"Episode 1 name"
+                  },
+                  "2":{
+                     "url":"https://www.show.url/season1/episode2",
+                     "name":"Episode 2 name"
+                  }
+               }
+            },
+            "2":{
+               "name":"Season 2",
+               "url":"https://www.dropout.tv/show/season2",
+               "episode":{
+                  "1":{
+                     "url":"https://www.show.url/season2/episode1",
+                     "name":"Episode 1 name"
+                  },
+                  "2":{
+                     "url":"https://www.show.url/season2/episode2",
+                     "name":"Episode 2 name"
+                  }
+               }
+            }
+         }
       }
-    }
-  }
-}
+   }
 }
 ```
